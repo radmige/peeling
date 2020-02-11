@@ -1,1 +1,4 @@
-# peeling
+# Peeling off image layers on topographic architectures
+Abstract
+
+Information patterns are ubiquitous and their automatic detection is fundamental in many computer vision tasks. Robust and fast detection of object candidates is essential as well as the ability to adapt the system to new situations. We propose a general, task independent method that i) locates interesting patterns on binary images by creating a hierarchical layered structure based on neighborhood topography of connected components, and ii) identifies object groups applying saliency principles. Saliency values are assigned to both object groups and individuals, that can be referred as a priority queue of image regions, or alternatively a proposal for blob processing order. Empirical analysis through several computer vision examples is provided including applications for blind and visually impaired people. The proposed algorithm can be efficiently implemented on processor arrays, since it mostly contains standard topographic instructions, and we also introduce a real-time implementation on the Eye-RIS/Toshiba SPS vision system.
